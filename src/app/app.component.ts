@@ -21,6 +21,8 @@ export class AppComponent {
 
   openSnackBar(val: string, action: string) {
     let newVal = (Number(val) * Number(val))
+
+    
     if(this.isEven(val)){
        newVal -= 1
     } else { newVal += 1}
